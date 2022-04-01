@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <div>
             <Navbar sticky='top' className='navBar shadow' bg="light" expand="lg">
-                <Container fluid className='container'>
+                <Container className='container'>
                     <Navbar.Brand><Link className='header' to={'/'}><h2>Food Gallery</h2></Link></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
