@@ -1,6 +1,7 @@
 .navBar {
     padding: 10px 0;
 }
+
 .container{
     max-width: 1600px !important;
 }
@@ -13,4 +14,8 @@
     margin-left: 23px;
     font-size: 20px;
     text-decoration: none;
+}
+.stick{
+    position: fixed;
+    top: 0;
 }
