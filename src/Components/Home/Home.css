@@ -1,8 +1,6 @@
 section{
-    padding: 50px 150px 0 150px;
-}
-.home-details{
-    margin-left: 30px;
+    /* padding: 80px 150px 0 150px; */
+    padding-top: 80px;
 }
 .home-details span{
     font-size: 2.5rem;
@@ -26,5 +24,10 @@ section{
 }
 .img-container{
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
+}
+.img-container img{
+    width: 100%;
+    margin: auto;
 }
