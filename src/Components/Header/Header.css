@@ -1,5 +1,5 @@
 .navBar {
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .header {
@@ -8,8 +8,7 @@
 }
 
 .items .item {
-    margin-right: 20px;
-    font-size: 25px;
+    margin-left: 23px;
+    font-size: 20px;
     text-decoration: none;
-    color: #666 !important;
 }

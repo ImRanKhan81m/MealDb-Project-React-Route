@@ -11,7 +11,7 @@ import Shop from './Components/Shop/Shop';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
