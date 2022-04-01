@@ -1,20 +1,24 @@
-section{
+section {
     /* padding: 80px 150px 0 150px; */
     padding-top: 80px;
 }
-.home-details span{
+
+.home-details span {
     font-size: 2.5rem;
     color: #27ae60;
 }
-.home-details h1{
+
+.home-details h1 {
     font-size: 5rem;
     color: #192a56;
 }
-.home-details p{
+
+.home-details p {
     font-size: 1.6rem;
     color: #666;
 }
-.home-details button{
+
+.home-details button {
     background-color: #192a56;
     font-size: 1.5rem;
     color: #fff;
@@ -22,12 +26,14 @@ section{
     cursor: pointer;
     padding: 0.7rem 2.3rem;
 }
-.img-container{
+
+.img-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.img-container img{
+
+.img-container img {
     width: 100%;
     margin: auto;
 }
