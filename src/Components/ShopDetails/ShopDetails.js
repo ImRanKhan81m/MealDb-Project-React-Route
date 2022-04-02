@@ -15,7 +15,7 @@ const ShopDetails = (props) => {
                         <Card.Title><h3>{strMeal}</h3></Card.Title>
                         <div className='cards'>
                             <Card.Text>
-                                {strInstructions.slice(0, 100)}
+                                {strInstructions.slice(0, 100)}.
                             </Card.Text>
                         </div>
                         <div className='buttonSet'>
