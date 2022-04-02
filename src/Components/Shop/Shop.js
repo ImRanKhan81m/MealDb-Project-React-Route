@@ -1,6 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
 import ShopDetails from '../ShopDetails/ShopDetails';
+import './Shop.css'
 
 const Shop = () => {
     const [products, setProducts] = useState([]);
