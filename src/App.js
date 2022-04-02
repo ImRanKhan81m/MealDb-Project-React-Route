@@ -9,6 +9,7 @@ import Home from './Components/Home/Home';
 import Order from './Components/Order/Order';
 import ProductDetails from './Components/ProductDetails/ProductDetails';
 import Shop from './Components/Shop/Shop';
+import SpinnerDetails from './Components/Spinner/SpinnerDetails';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/order' element={<Order />} />
         <Route path='/cart' element={<Cart />} />
+        <Route path='/spin' element={<SpinnerDetails />} />
       </Routes>
       <Footer/>
     </div>

@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { Col, Row } from 'react-bootstrap';
-import { Link, useNavigate, useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import './ProductDetails.css'
 
 const ProductDetails = () => {
