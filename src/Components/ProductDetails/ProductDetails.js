@@ -7,7 +7,7 @@ import './ProductDetails.css'
 const ProductDetails = () => {
     const { id } = useParams();
     const [product, setProduct] = useState({});
-    const { strMeal, strCategory, strArea, strInstructions, strTags, strYoutube, strSource, strIngredient1, strIngredient2, strIngredient3, strIngredient4, strIngredient5, strIngredient6, strMeasure1, strMeasure2, strMeasure3, strMeasure4, strMeasure5, strMeasure6, strMeasure7, strMeasure8, strMeasure9 } = product;
+    const { strMeal, strCategory, strArea, strInstructions, strTags, strYoutube, strIngredient1, strIngredient2, strIngredient3, strIngredient4, strIngredient5, strIngredient6, strMeasure1, strMeasure2,strMeasure4, strMeasure5, strMeasure6, strMeasure7, strMeasure8, strMeasure9 } = product;
 
     useEffect(() => {
         const url = `https://www.themealdb.com/api/json/v1/1/lookup.php?i=${id}`

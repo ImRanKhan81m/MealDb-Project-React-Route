@@ -4,9 +4,7 @@ import './Spinner.css'
 
 const SpinnerDetails = () => {
     return (
-        <div className='spin'>
-            <>
-                <Button variant="primary" disabled>
+        <div className='spin'><Button variant="primary" disabled>
                     <Spinner
                         as="span"
                         animation="border"
@@ -14,7 +12,7 @@ const SpinnerDetails = () => {
                         role="status"
                         aria-hidden="true"
                     />
-                    <span className="visually-hidden">Loading...</span>
+                    <span className="visually-hidden"> Loading...</span>
                 </Button>{' '}
                 <Button variant="primary" disabled>
                     <Spinner
@@ -26,7 +24,6 @@ const SpinnerDetails = () => {
                     />
                     Loading...
                 </Button>
-            </>
         </div>
     );
 };

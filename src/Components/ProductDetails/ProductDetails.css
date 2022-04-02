@@ -43,3 +43,6 @@
     font-weight: 500;
     transition: .5s !important;
 }
+.item-btn button:hover{
+    background-color: #299355;
+}
