@@ -1,15 +1,18 @@
-.product-details{
+.product-details {
     height: 82.8vh;
 }
-.image{
+
+.image {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.image img{
+
+.image img {
     border-radius: 50px;
 }
-.bgColor{
+
+.bgColor {
     background-color: antiquewhite;
     padding-top: 80px;
 }
