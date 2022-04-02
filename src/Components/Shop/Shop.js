@@ -18,7 +18,7 @@ const Shop = () => {
     }, [searchText])
     return (
         <div className="container">
-            <div className="search-container text-center my-5 py-5">
+            <div className="search-container text-center py-4 mb-3">
                 <h2>Please Search Your Favorite Food!</h2>
                 <input className='w-25' onChange={searchFood} type="text" placeholder='Search Your Favorite Food Name' /> <button>Search</button>
             </div>
