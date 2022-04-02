@@ -1,9 +1,10 @@
 import React from 'react';
 import { Button, Spinner } from 'react-bootstrap';
+import './Spinner.css'
 
 const SpinnerDetails = () => {
     return (
-        <div>
+        <div className='spin'>
             <>
                 <Button variant="primary" disabled>
                     <Spinner
