@@ -22,8 +22,8 @@ const Shop = () => {
     }, [searchText])
     return (
         <>
-            {loading ? <SpinnerDetails /> :
-                <div className="container">
+            {loading ? (<SpinnerDetails />) :
+                (<div className="container">
                     <div className="search-container text-center py-4 mb-3">
                         <h2>Please Search Your Favorite Food!</h2>
                         <input className='w-25' onChange={searchFood} type="text" placeholder='Search Your Favorite Food Name' /> <button>Search</button>
@@ -36,7 +36,7 @@ const Shop = () => {
                             ></ShopDetails>)
                         }
                     </div>
-                </div>}
+                </div>)}
         </>
     );
 };
