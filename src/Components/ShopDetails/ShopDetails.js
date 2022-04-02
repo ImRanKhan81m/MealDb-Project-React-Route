@@ -19,7 +19,7 @@ const ShopDetails = (props) => {
                             </Card.Text>
                         </div>
                         <div className='buttonSet'>
-                            <Button>See Details</Button>
+                            <Link to={`/product-details/${idMeal}`}><Button>See Details</Button></Link>
                             <Button>Add To Cart</Button>
                         </div>
                     </Card.Body>
