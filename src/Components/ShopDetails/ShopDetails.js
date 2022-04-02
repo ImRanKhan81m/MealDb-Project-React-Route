@@ -7,9 +7,9 @@ const ShopDetails = (props) => {
     const { strMealThumb, strMeal, strInstructions } = props.product
     return (
         <div>
-            <div className='shopDetails'>
+            <div>
                 <CardGroup>
-                    <Card>
+                    <Card className='shopDetails'>
                         <Card.Img variant="top" src={strMealThumb} />
                         <Card.Body>
                             <Card.Title>{strMeal}</Card.Title>
@@ -18,9 +18,9 @@ const ShopDetails = (props) => {
                                     {strInstructions.slice(0, 100)}
                                 </Card.Text>
                             </div>
-                            <div className='btn'>
-                             <div><Button variant="primary">See Details</Button></div>
-                            <div><Button variant="primary">Add To Cart</Button></div>
+                            <div className='buttonSet'>
+                                <Button>See Details</Button>
+                                <Button>Add To Cart</Button>
                             </div>
                         </Card.Body>
                     </Card>

@@ -19,8 +19,8 @@ const Shop = () => {
     return (
         <div className="container">
             <div className="search-container text-center my-5 py-5">
-                <h2>Please search your favorite food</h2>
-                <input className='w-25' onChange={searchFood} type="text" placeholder='search your favorite food name' /> <button>Search</button>
+                <h2>Please Search Your Favorite Food!</h2>
+                <input className='w-25' onChange={searchFood} type="text" placeholder='Search Your Favorite Food Name' /> <button>Search</button>
             </div>
             <div className="product-result-container">
                 {
