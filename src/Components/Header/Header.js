@@ -16,6 +16,7 @@ const Header = () => {
                             <CustomLink className='item' to={'/'}>Home</CustomLink>
                             <CustomLink className='item' to={'/shop'}>Shop</CustomLink>
                             <CustomLink className='item' to={'/about'}>About</CustomLink>
+                            <CustomLink className='item' to={'/order'}>Order</CustomLink>
                             <CustomLink className='item' to={'/cart'}>Cart</CustomLink>
                         </Nav>
                     </Navbar.Collapse>
