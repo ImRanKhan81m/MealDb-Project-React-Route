@@ -7,6 +7,7 @@ import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Order from './Components/Order/Order';
+import ProductDetails from './Components/ProductDetails/ProductDetails';
 import Shop from './Components/Shop/Shop';
 
 
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/shop' element={<Shop />} />
+        <Route path='product-details/:id' element={<ProductDetails/>}/>
         <Route path='/about' element={<About />} />
         <Route path='/order' element={<Order />} />
         <Route path='/cart' element={<Cart />} />
