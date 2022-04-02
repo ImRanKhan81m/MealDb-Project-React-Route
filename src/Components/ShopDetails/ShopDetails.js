@@ -12,7 +12,7 @@ const ShopDetails = (props) => {
                     <Card className='shopDetails'>
                         <Card.Img variant="top" src={strMealThumb} />
                         <Card.Body>
-                            <Card.Title>{strMeal}</Card.Title>
+                            <Card.Title><h3>{strMeal}</h3></Card.Title>
                             <div className='cards'>
                                 <Card.Text>
                                     {strInstructions.slice(0, 100)}
