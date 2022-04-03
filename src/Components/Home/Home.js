@@ -3,7 +3,6 @@ import { Col, Container, Row } from 'react-bootstrap';
 import './Home.css'
 import image from '../Assets/images/home-img-2.png'
 import { useNavigate } from 'react-router-dom';
-import Shop from '../Shop/Shop';
 
 const Home = () => {
     const navigate = useNavigate();
@@ -30,7 +29,6 @@ const Home = () => {
                     </Container>
                 </section>
             </div>
-            {<Shop></Shop>}
         </>
     );
 };
