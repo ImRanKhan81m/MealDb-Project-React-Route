@@ -1,10 +1,11 @@
-.footer{
+.footer {
     text-align: center;
     font-size: 20px;
     background-color: #192a56;
     color: #fff;
     padding: 30px;
 }
-.footer p{
+
+.footer p {
     margin: 0;
 }
