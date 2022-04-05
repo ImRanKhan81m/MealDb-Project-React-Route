@@ -22,7 +22,7 @@ const Home = () => {
                             </Col>
                             <Col lg='7' className='img-container'>
                                 <div>
-                                            <img src={image} alt="" />
+                                    <img src={image} alt="" />
                                 </div>
                             </Col>
                         </Row>
